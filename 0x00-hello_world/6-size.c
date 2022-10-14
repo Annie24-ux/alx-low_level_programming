@@ -1,9 +1,9 @@
 #include <stdio.h>
-
-/*
- * main - Printing file here
+/**
+ * main - Entry point
  *
- * Return: Always 0 (Success is guaranteed)
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
