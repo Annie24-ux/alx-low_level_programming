@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - print alphabets in lowercase xby ten.
- * Return: Always 0.
+ *print_alphabet_x10- Print alphabets, in lowercases.
  */
 
 void print_alphabet_x10(void)
