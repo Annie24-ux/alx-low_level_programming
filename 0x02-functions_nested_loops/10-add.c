@@ -9,6 +9,5 @@
  */
 int add(int a, int b)
 {
-	sum = int a + int b;
-	return (sum);
+	return (int a + int b);
 }
