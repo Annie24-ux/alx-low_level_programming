@@ -3,13 +3,16 @@
 #include <string.h>
 
 /**
- * int _strlen - prints length of string
- * @s - string pointer 
- * Return: Always 0
+ *_strlen - prints length of string
+ *@s: char to check
+ *Return: Always 0
  */
 
 int _strlen(char *s)
 {
+	int len = strlen(*s);
+
+	_putchar("%d\n", len);
 
 
 }
