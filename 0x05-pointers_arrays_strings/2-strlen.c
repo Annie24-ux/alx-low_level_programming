@@ -10,9 +10,11 @@
 
 int _strlen(char *s)
 {
-	int len = strlen(*s);
+	int len;
 
-	_putchar("%d\n", len);
+	len = strlen(*s);
+
+	return (len);
 
 
 }
