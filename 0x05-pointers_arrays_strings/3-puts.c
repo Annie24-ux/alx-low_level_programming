@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * void _puts - prints out a string
+ *_puts - prints out a string
  * Return: Always 0.
- * @s: string 
+ *@str: string
  */
 
 void _puts(char *str)
 {
-
-
+	*str;
+	_putchar("%s\n", str);
 }
