@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*puts_half -  function that prints half of a 
- * string, followed by a new line.
+*puts_half -  function that prints half of a
+*string, followed by a new line.
  * @str: string to be checked
  * Return: always 0.
  */
