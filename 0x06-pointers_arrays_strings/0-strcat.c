@@ -10,7 +10,19 @@
 
 char *_strcat(char *dest, char *src)
 {
-	_putchar("%s\n", strcat(dest, src));
-	return (0);
+	char *s = dest;
+
+	while (*dest != '\0')
+	{
+		dest++;
+	}
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (s);
 }
 
