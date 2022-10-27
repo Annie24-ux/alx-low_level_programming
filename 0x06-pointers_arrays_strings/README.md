@@ -13,3 +13,5 @@ Task:
 9: a function that prints an integer.
 9: Add one line to this code, so that the program prints a[2] = 98
 10: a function that adds two numbers.
+11. a function that adds two numbers.
+12: a function that prints a buffer.
