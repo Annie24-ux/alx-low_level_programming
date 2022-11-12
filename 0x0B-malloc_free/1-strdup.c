@@ -4,23 +4,29 @@
 
 #include <stdlib.h>
 /**
- *main - function that returns a pointer to
- * a newly allocated space in memory,
- * Return: Always 0.
+ *_strdup - a function that returns a pointer to a newly allocated 
+ *space in memory, which contains a copy of the string given as a parameter.
+ *@str: string.
+ *Return: pointer of an array of chars
  */
-
-int main(void)
+char *_strdup(char *str)
 {
-	char *s;
+	char *strout;
+	unsigned int i, j;
 
-	s = _strdup("");
-	if (s == NULL)
-	{
-		printf("failed to allocate memory\n");
-		return (1);
+	if (str == NULL)
+		return (NULL);
 
-	}
-	printf("%s\n", s);
-	free(s);
-	return (0);
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	strout = (char *)malloc(sizeof(char) * (i + 1));
+
+	if (strout == NULL)
+		return (NULL);
+
+	for (j = 0; j <= i; j++)
+		strout[j] = str[j];
+
+	return (strout);
 }
+ 
