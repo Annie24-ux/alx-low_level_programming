@@ -4,7 +4,7 @@
 
 #include <stdlib.h>
 /**
- *_strdup - a function that returns a pointer to a newly allocated 
+ *_strdup - a function that returns a pointer to a newly allocated
  *space in memory, which contains a copy of the string given as a parameter.
  *@str: string.
  *Return: pointer of an array of chars
@@ -29,4 +29,3 @@ char *_strdup(char *str)
 
 	return (strout);
 }
- 
