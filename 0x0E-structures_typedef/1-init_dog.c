@@ -6,7 +6,7 @@ include < stdlib.h >
 
 
 /**
- * my_dog-Define a new type struct
+ * init_dog- initializes a dog structure
  * dog with the following element
  * @pd: pointer to a dog structure
  *@name:name of dog
@@ -15,7 +15,7 @@ include < stdlib.h >
  * Return void;
  */
 
-void my_dog(struct dog *pd, char *name, float age, char *owner)
+void init_dog(struct dog *pd, char *name, float age, char *owner)
 {
 	if (pd != NULL)
 	{
