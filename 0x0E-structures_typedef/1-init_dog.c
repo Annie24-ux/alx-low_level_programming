@@ -1,7 +1,4 @@
-#ifndef "dog.h"
-#define "dog.h"
-
-include < stdlib.h >
+#include < stdlib.h >
 #include "dog.h"
 
 
@@ -24,4 +21,3 @@ void init_dog(struct dog *pd, char *name, float age, char *owner)
 		pd->owner = owner;
 	}
 }
-#endif
