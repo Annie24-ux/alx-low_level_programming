@@ -1,9 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
-
+#include <stdio.h>
 
 /**
  * print_listint-print elements of the lists
@@ -18,9 +14,9 @@ size_t print_listint(const listint_t *h)
 	while (h != 0)
 	{
 		printf("%d\n", h->n);
-		count++;
-
 		h = h->next
+
+			count++;
 	}
 	return (count);
 }
